@@ -1,0 +1,6 @@
+.links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem 1rem 1rem 0;
+}

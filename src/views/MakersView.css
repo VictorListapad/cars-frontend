@@ -1,0 +1,32 @@
+table th {
+  width: 50vw;
+  padding: 1rem;
+  border: 2px solid #fff;
+}
+
+table {
+  color: #fff;
+}
+
+.makers-container {
+  background: #2e2f31;
+  min-height: 100vh;
+}
+
+table tr {
+  line-height: 3;
+  border: 2px solid #fff;
+}
+
+button {
+  border: none;
+  padding: 0.1rem 1rem;
+  transform: scale(0.8);
+  text-transform: lowercase;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  background: rgb(161, 40, 40);
+  color: #fff;
+}

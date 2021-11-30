@@ -1,0 +1,61 @@
+.home-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../backgroundImgs/pexels-kelson-downes-1149137.jpg") center/cover
+      no-repeat fixed;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-header h1 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+.home-header h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+.home-header p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  width: 50vw;
+}
+
+.home-explore {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../backgroundImgs/pexels-sarmad-mughal-305070.jpg") center/cover
+      no-repeat fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.home-explore h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.home-explore a {
+  text-decoration: none;
+  background-color: rgb(161, 40, 40);
+  padding: 1rem 3rem;
+  margin-top: 4rem;
+  color: #fff;
+  outline: 2px solid rgb(161, 40, 40);
+  outline-offset: 3px;
+  transition: all 0.3s linear;
+  font-size: 1.5rem;
+}
+
+.home-explore a:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: rgb(161, 40, 40);
+  outline: 2px solid #fff;
+  outline-offset: 6px;
+}

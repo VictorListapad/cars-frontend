@@ -1,0 +1,35 @@
+.infoPage {
+  min-height: 100vh;
+  background: #212529;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailImgContainer {
+  width: 100vw;
+}
+
+.detailImgContainer img {
+  width: 100%;
+}
+
+.infoContainer {
+  padding-top: 2rem;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2;
+}
+
+.infoContainer h1 {
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+hr {
+  color: #fff;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+.listingsBackground {
+  padding-top: 2rem;
+  background: #2e2f31;
+  min-height: 100vh;
+}
+.listingsBackground h1 {
+  color: #fff;
+}
+.listings {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

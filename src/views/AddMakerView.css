@@ -1,0 +1,30 @@
+.addMakerForm {
+  padding-top: 2rem;
+  background: #2e2f31;
+  min-height: 100vh;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin: 0;
+}
+form {
+  width: 60vw;
+}
+.form-control {
+  margin: 1rem 0;
+  height: 3rem;
+}
+.addMakerForm .btn {
+  background: rgb(161, 40, 40);
+  color: #fff;
+  transition: all 0.3s linear;
+}
+.addMakerForm .btn:hover {
+  background: rgb(255, 0, 0);
+  color: #222;
+}
