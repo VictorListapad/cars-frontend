@@ -5,7 +5,10 @@ const tokenString = "jwtironcarsproject";
 
 // SIGN IN
 export const signUserToApi = async (user) => {
-  const res = await axios.post(`${apiUrl}/auth/signin`, user);
+  const res = await axios.post(
+    `https://boiling-citadel-13895.herokuapp.com/api/v1/auth/signin`,
+    user
+  );
   try {
     console.log(res.data);
     if (res.data) {
@@ -25,7 +28,10 @@ export const signUserToApi = async (user) => {
 
 // SIGN UP
 export const userSignUp = async (user) => {
-  const res = await axios.post(`${apiUrl}/auth/signup`, user);
+  const res = await axios.post(
+    `https://boiling-citadel-13895.herokuapp.com/api/v1/auth/signup`,
+    user
+  );
   return res;
 };
 
@@ -48,13 +54,17 @@ export const logOut = () => {
 
 // GET ALL USERS
 export const getAllUsers = async () => {
-  const res = await axios.get(`${apiUrl}/auth`);
+  const res = await axios.get(
+    `https://boiling-citadel-13895.herokuapp.com/api/v1/auth`
+  );
   return res;
 };
 
 // DELETE USER
 export const deleteUserInApi = async (id) => {
-  const res = await axios.delete(`${apiUrl}/auth/user/${id}`);
+  const res = await axios.delete(
+    `https://boiling-citadel-13895.herokuapp.com/api/v1/auth/user/${id}`
+  );
   return res;
 };
 

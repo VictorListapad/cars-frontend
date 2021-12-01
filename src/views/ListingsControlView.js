@@ -12,7 +12,9 @@ const ListingsControlView = () => {
   }, []);
 
   const getCars = async () => {
-    const res = await axios.get(`${apiUrl}/cars`);
+    const res = await axios.get(
+      `https://boiling-citadel-13895.herokuapp.com/api/v1/cars`
+    );
     setCars(res.data);
   };
 

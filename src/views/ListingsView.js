@@ -19,7 +19,9 @@ function ListingsView() {
     setLoading(true);
     setTimeout(async () => {
       try {
-        const res = await axios.get(`${apiUrl}/cars`);
+        const res = await axios.get(
+          `https://boiling-citadel-13895.herokuapp.com/api/v1/cars`
+        );
         setCars(res.data);
       } catch (error) {
         setEmpty(true);

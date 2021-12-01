@@ -12,7 +12,9 @@ const MakersView = () => {
   }, []);
 
   const getMakers = async () => {
-    const res = await axios.get(`${apiUrl}/makers`);
+    const res = await axios.get(
+      `https://boiling-citadel-13895.herokuapp.com/api/v1/makers`
+    );
     setMakers(res.data);
   };
 

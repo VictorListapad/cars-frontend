@@ -15,7 +15,9 @@ const UsersListView = () => {
   }, []);
 
   const getUsers = async () => {
-    const res = await axios.get(`${apiUrl}/auth`);
+    const res = await axios.get(
+      `https://boiling-citadel-13895.herokuapp.com/api/v1/auth`
+    );
     setUsers(res.data);
   };
   const deleteUser = (id) => {
