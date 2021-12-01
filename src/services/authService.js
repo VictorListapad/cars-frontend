@@ -6,7 +6,7 @@ const tokenString = "jwtironcarsproject";
 // SIGN IN
 export const signUserToApi = async (user) => {
   const res = await axios.post(
-    `https://boiling-citadel-13895.herokuapp.com/api/v1/auth/signin`,
+    `http://localhost:5000/api/v1/auth/signin`,
     user
   );
   try {
@@ -67,16 +67,3 @@ export const deleteUserInApi = async (id) => {
   );
   return res;
 };
-
-// UPDATE USER
-// export const updateUserInApi = async (obj) => {
-//   const res = await axios.put(`${apiUrl}/auth/user/${obj._id}`);
-//   alert("Updated!");
-//   return res;
-// };
-
-// GET ONE USER
-// export const getOneUserFromApi = async (id) => {
-//   const res = await axios.get(`${apiUrl}/auth/user/${id}`);
-//   return res;
-// };
