@@ -33,13 +33,13 @@ export const imageUploadToApi = async (id, img) => {
 export const updateCarInApi = async (obj) => {
   const { image, ...car } = obj;
   const res = await axios.put(`${apiUrl}/cars/car/${obj._id}`, car);
-  alert("Car updated succesfully");
+  alert("Listing updated succesfully");
   return res;
 };
 
 // DELETE CAR
 export const deleteCarInApi = async (id) => {
   const res = await axios.delete(`${apiUrl}/cars/car/${id}`);
-  alert("Car succesfully deleted");
+  alert("Listing succesfully deleted");
   return res;
 };

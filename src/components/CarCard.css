@@ -7,7 +7,7 @@
   max-width: 22%;
   margin: 1%;
   border-radius: 10px;
-  background: rgb(235, 224, 224);
+  background: rgb(30, 33, 34);
   max-height: 55vh;
   box-shadow: rgb(0, 0, 0) 0px 5px 5px;
   transition: all 0.3s linear;
@@ -43,6 +43,9 @@
   text-decoration: none;
   color: #222;
   width: 100%;
+}
+h5 {
+  color: #fff;
 }
 
 @media screen and (max-width: 825px) {

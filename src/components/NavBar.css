@@ -2,5 +2,18 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  padding: 1rem 1rem 1rem 0;
+  padding: 0.5rem;
+}
+
+.links a:hover {
+  color: rgb(161, 40, 40);
+}
+
+.brand a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #fff;
 }

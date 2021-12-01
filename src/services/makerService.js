@@ -17,5 +17,6 @@ export const createMakerInApi = async (maker) => {
 // DELETE MAKER
 export const deleteMakerInApi = async (id) => {
   const res = await axios.delete(`${apiUrl}/makers/maker/${id}`);
+  alert("Maker succesfully deleted!");
   return res;
 };
