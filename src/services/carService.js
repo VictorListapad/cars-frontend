@@ -4,7 +4,9 @@ const apiUrl = process.env.REACT_APP_API_URL;
 
 // GET ALL CARS
 export const getAllCars = async () => {
-  const res = await axios.get(`${apiUrl}/cars`);
+  const res = await axios.get(
+    `https://boiling-citadel-13895.herokuapp.com/api/v1/cars`
+  );
   return res;
 };
 
