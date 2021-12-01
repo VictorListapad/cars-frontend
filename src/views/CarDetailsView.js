@@ -24,11 +24,11 @@ const CarDetailsView = () => {
       </div>
       <div className="infoContainer">
         <h1>{car.name}</h1>
-        {/* <hr />
+        <hr />
         <p>
-          <b>Maker:</b> {car.maker.name}
+          <b>Maker:</b> {car.maker?.name}
         </p>
-        <hr /> */}
+        <hr />
         <p>
           <b>Year:</b> {car.year}
         </p>

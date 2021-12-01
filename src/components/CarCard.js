@@ -9,7 +9,9 @@ const CarCard = (props) => {
   return (
     <div className="carCard">
       <img src={car.image ? car.image : notFoundImg} alt="car" />
-      <h5>{car.name}</h5>
+      <h5>
+        {car.maker?.name} {car.name}
+      </h5>
       <p>Year: {car.year}</p>
       <p>Miles: {car.miles}</p>
       <p>Engine: {car.engine}</p>
