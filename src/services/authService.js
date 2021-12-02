@@ -6,7 +6,7 @@ const tokenString = "jwtironcarsproject";
 // SIGN IN
 export const signUserToApi = async (user) => {
   const res = await axios.post(
-    `http://localhost:5000/api/v1/auth/signin`,
+    `https://localhost:5000/api/v1/auth/signin`,
     user
   );
   try {
