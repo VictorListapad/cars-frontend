@@ -6,7 +6,7 @@ const tokenString = "jwtironcarsproject";
 // SIGN IN
 export const signUserToApi = async (user) => {
   const res = await axios.post(
-    `https://localhost:5000/api/v1/auth/signin`,
+    `https://boiling-citadel-13895.herokuapp.com/api/v1/auth/signup`,
     user
   );
   try {
